@@ -1,0 +1,601 @@
+/******************************************************/
+/* Talent Profile Accordion Style */
+/******************************************************/
+.mypath_accordion {
+	width: 84% !important; margin: 20px 0 30px 10%; background-color: transparent; border: none;margin-left: 5%;
+}
+.mypath_accordion_exp {
+	width: 70% !important; margin: 20px 0 30px 10%; background-color: transparent; border: none; margin-left: 5%; margin-bottom : 5%
+}
+
+.mypath_accordion .sapUiAcdSection { width: 106% !important; margin-top: 1em; margin-bottom: 3%; }
+.mypath_accordion .sapUiAcdSectionCont{ border: none; background-color: transparent; padding: 0; overflow: hidden; }
+.mypath_accordion .sapUiAcdSectionMinArrow{  margin-top: 0px;
+  background-image: url('../images/triangle180.png');
+  width: 30px;
+  height: 25px;
+  }
+  .mypath_accordion .sapUiAcdSectionMinArrow:hover{  margin-top: 0px;
+  background-image: url('../images/triangle180.png');
+  width: 30px;
+  height: 25px;
+  
+  }
+  
+  .mypath_accordion_exp .sapUiAcdSection { width: 127% !important; margin-top: 1em; }
+.mypath_accordion_exp .sapUiAcdSectionCont{ border: none; background-color: transparent; padding: 0; overflow: hidden; }
+  
+  .mypath_accordion_exp .sapUiAcdSectionMinArrow{  margin-top: 0px;
+  background-image: url('../images/triangle.png');
+  width: 30px;
+  height: 25px;
+  }
+
+.document_link {
+	width: 96%; padding: 10px; border: 1px solid #D0CDC7; margin: 4px 0 4px 4%; position: relative;
+	font-size: 16px; color: #019FD8; background-color: white; text-align: left; font-weight: 700;
+}
+
+.mypath_accordion .sapUiAcdSectionHdr { color: #333333; background-color: white; height: 45px; border: 1px solid #D0CDC7; }
+
+.mypath_accordion .sapUiAcdSectionHdr:hover{ background-color: white; color: #019FD8; }
+
+.mypath_accordion_exp .sapUiAcdSectionHdr { color: #333333; background-color: white; height: 45px; border: 1px solid #D0CDC7; }
+
+.mypath_accordion_exp .sapUiAcdSectionHdr:hover{ background-color: white; color: #019FD8; }
+
+.linkS { color: black; }
+
+.mypath_accordion .sapUiAcdSectionLabel { 
+	font-family: 'Arial Bold', 'Arial'; font-weight: 700 !important; font-style: normal; font-size: 14px;
+	color: #333333; margin-left: 35px; line-height: 30px;
+}
+
+.mypath_accordion_exp .sapUiAcdSectionLabel { 
+	font-family: 'Arial Bold', 'Arial'; font-weight: 700 !important; font-style: normal; font-size: 14px;
+	color: #333333; margin-left: 35px; line-height: 30px;
+}
+
+/***********************************************/
+/* Talent profile table style */
+/**********************************************/
+
+/* For the table header */
+.talent_tablestyle.sapUiTable>.sapUiTableHdr{
+	height: 30px; font-size: 16px; font-weight: bold; color: #3a3a3a;
+	border-bottom: none; padding-top: 5px;
+}
+
+.talent_tablestyle .sapUiTableCnt{ border-right: none; }
+
+/* Table header row */
+.talent_tablestyle .sapUiTableCol {	border-right: 1px solid #ccc; background: #d7d7d7; font-weight: 700; }
+
+/* Column title text*/
+.talent_tablestyle .sapUiTableColCell>.sapUiLbl{ font-size: 13px; font-weight: 700; } 
+
+.talent_tablestyle .sapUiTableCol:hover{ background: #c7c7c7; }
+
+/* Table even row */
+.talent_tablestyle .sapUiTableRowEven {	background: white; height: 80px; }
+
+/* Table odd row */
+.talent_tablestyle .sapUiTableRowOdd { background: #f5f5f5; height: 80px; }
+
+/* For the row selecter area */
+.talent_tablestyle .sapUiTableColRowHdr, .talent_tablestyle .sapUiTableRowHdr {
+	border-bottom: 1px solid #ccc;	border-right: 1px solid #ccc; background-color: #d7d7d7;
+}
+
+/* For each table column */
+.talent_tablestyle .sapUiTableTr>td { border-bottom: none; border-right: 1px solid #ccc; }
+
+/* For the table row hover */
+.talent_tablestyle .sapUiTableCtrl tr.sapUiTableRowHvr.sapUiTableRowEven { background-color: white; }
+.talent_tablestyle .sapUiTableCtrl tr.sapUiTableRowHvr.sapUiTableRowOdd { background-color: #f5f5f5; }
+
+/******************************************************
+		Style when table row is selected 
+*******************************************************/
+
+/************* SELECTION MODE SINGLE ************/
+
+.talent_tablestyle.sapUiTableSelModeSingle .sapUiTableCtrl tr.sapUiTableRowSel>td {
+	border-top: 2px solid #c3c3c3;  border-bottom: 2px solid #c3c3c3;
+}
+
+/* Border style for the last column when table row is selected */
+.talent_tablestyle.sapUiTableSelModeSingle .sapUiTableRowHdr.sapUiTableRowSel,
+.talent_tablestyle.sapUiTableSelModeSingle .sapUiTableCtrl tr.sapUiTableRowSel>td:last-child
+{
+	border-right: 2px solid #c3c3c3; border-bottom: 2px solid #c3c3c3;
+	
+}
+
+/* Style for the row selector */
+.talent_tablestyle.sapUiTableSelModeSingle .sapUiTableRowHdr.sapUiTableRowSel {
+	background-color: #c3c3c3; border-right-color: #c3c3c3; outline: none;
+}
+
+/************* SELECTION MODE MULTIPLE ************/
+.talent_tablestyle.sapUiTableSelModeMulti .sapUiTableCtrl tr.sapUiTableRowSel>td { background-color: #dadada; }
+/* .talent_tablestyle.sapUiTableSelModeMulti .sapUiTableCtrl tr.sapUiTableRowSel.sapUiTableRowOdd>td {
+	background-color: #e2e2e2;
+}
+ */
+.talent_tablestyle.sapUiTableSelModeMulti .sapUiTableCtrl tr.sapUiTableRowSel.sapUiTableRowHvr>td { background-color: #e2e2e2; }
+
+/* Style for the row selector */
+.talent_tablestyle.sapUiTableSelModeMulti .sapUiTableRowHdr.sapUiTableRowSel {
+	background-color: #c3c3c3; border-right-color: #c3c3c3; outline: none;
+}
+
+/***************************************************/
+/* Talent profile slider style */
+/***************************************************/
+.talent_profile_slider{ width : 100%}
+.talent_profile_slider_N{ width : 100%}
+.talent_profile_slider.sapUiSli{ height: 50px; width: 92% !important; margin-left: 52%; padding-top : 8%}
+.talent_profile_slider .sapUiSliBar, .talent_profile_slider .sapUiSliHiLi{ height: 10px; border-radius: 10px; }
+.talent_profile_slider .sapUiSliR, .talent_profile_slider .sapUiSliL{ border: none; margin:0; border-style: none; border-color: transparent; }
+.talent_profile_slider .sapUiSliGrip{
+	height: 20px; border-radius: 10px; background-color: #333333; border-color: #333333;
+	-webkit-box-shadow: 2px 1px 3px 0px rgba(41,41,41,0.5)
+	-moz-box-shadow: 2px 1px 3px 0px rgba(41,41,41,0.5)
+	box-shadow: 2px 1px 3px 0px rgba(41,41,41,0.5)
+}
+
+.talent_profile_slider .sapUiSliHiLi{ background-color: #008021; border-color: #008021;}
+.talent_profile_slider_N .sapUiSliHiLi{ background-color: red; border-color: red;}
+.talent_profile_slider .sapUiSliText { top: 340%; color: #BCBCBC; text-transform: uppercase; font-size: 10px; font-weight: 700; }
+.talent_profile_slider .sapUiSliTextLeft { display: none; }
+.talent_profile_slider .sapUiSliTextRight{ right: -10px; }
+.talent_profile_slider .sapUiSliTick{ height: 10px; top: 13px; border-left: 2px solid #cdcdcd;}
+
+
+/***************************************************/
+/* Other talent profile styles */
+/***************************************************/
+.talent_profile_title{ font-size: 14px !important; font-weight: 400 !important; }
+.talent_profile_checkbox{ padding-top: 45%; }
+
+.tp_namelayout{
+  background-color: rgb(197, 190, 190);
+  width: 99%;
+  margin-left: 0%;
+  height: 50px;
+  border-radius: 10px;
+  padding-top: 5px;
+  margin-top: 35px;
+  text-align: left;
+	
+}
+
+.title_textTP
+{
+  font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color : #333333 !important;
+  padding-top: 10px;
+}
+
+.label_styleTP
+{
+  font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #999999 !important;
+  padding-right : 15px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.label_styleTPREV
+{
+  font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #999999 !important;
+  padding-right : 25px;
+  padding-top: 10px;
+  margin-left: 210px;
+}
+
+.underline_style
+{
+  color: #019FD8 !important;
+  font-weight: 400 !important;
+  border-bottom: 2px dotted !important;
+  font-family: 'Arial';
+  font-style: normal;
+  font-size: 14px;
+}
+
+.tp_expAllBut{
+  float: right;
+  padding-right: 1%;
+}
+
+.tp_expAllBut div.sapMBtnInner.sapMBtnEmphasized{
+	border-radius: 10px;
+
+}
+
+.tp_expAllLayout{
+	width : 90%
+	
+}
+
+.cancel_btn_style
+{
+  position: fixed !important;
+  bottom: 0px !important;
+  left: 100px !important;
+}
+.create_btn_style
+{
+  position: fixed !important;
+  bottom: 0px !important;
+  right: -50px !important;
+	
+}
+
+.pdfImageTP {
+  float: right;
+  position: absolute;
+  top: 44px;
+  right: 8%;
+}
+
+.sapUiAcdSectionColl .sapUiAcdSectionHdr:hover .sapUiAcdSectionMinArrow, .sapUiAcdSectionColl .sapUiAcdSectionMinArrow:hover {
+ /*  background-image: url(img/arrow_right_hover.png); */
+ background-image: url('../images/triangle180.png');
+}
+.sapUiAcdSectionHdr:hover .sapUiAcdSectionMinArrow, .sapUiAcdSectionMinArrow:hover {
+	 background-image: url('../images/triangle.png');
+  /* background-image: url(img/arrow_down_hover.png); */
+  
+}
+
+.tpHorzLayout{
+	width : 100%
+}
+
+.tpHorzLayout .sapUiHLayoutChildWrapper{
+  width: 100%;
+  margin-left: -100%;
+	
+}
+
+.tpRP{
+	width : 25%;
+	margin-left: -25%;
+  	margin-top: 15px;
+    text-align: center !important;
+    color: rgb(79, 15, 15);
+	
+}
+
+.tpRPVert{
+	width : 25%;
+	height : 42px;
+	margin-left: -25%;
+  	margin-top: 13px;
+    text-align: center !important;
+    color: rgb(79, 15, 15);
+	padding-top : 5% ;
+	
+}
+
+
+.tpRP1{
+	width : 25%;
+	margin-left: 25%;
+  	margin-top: 0%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	
+}
+
+.tpRPVert1{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 3.77%;
+  	margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRP2{
+	width : 25%;
+	margin-left: 41%;
+   margin-top: 0%;
+    text-align: center !important;
+   color: rgb(219, 1, 1);
+	
+}
+
+.tpRPVert2{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 40.77%;
+  	margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRP3{
+	width : 25%;
+	margin-left: 77%;
+  	margin-top: 0%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	
+}
+.tpRPVert3{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 77.6%;
+  	margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRP4{
+	width : 25%;
+	margin-left: 94%;
+  	margin-top: 0%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	
+}
+.tpRPVert4{
+	width : 1.25%;
+	height : 42px;
+	  margin-left: 106.6%;
+  	margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRP5{
+	width : 25%;
+	margin-left: 112%;
+  	margin-top: 0%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	
+}
+.tpRPVert5{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 124.9%;
+  	margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRP6{
+	width : 25%;
+	margin-left: 131%;
+  	margin-top: 0%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	
+}
+.tpRPVert6{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 143.25%;
+  	margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+	
+}
+
+
+
+
+.tpRPCB{
+	width : 25%;
+	margin-left: -25%;
+  	margin-top: 15px;
+    text-align: center !important;
+    color: rgb(79, 15, 15);
+	
+}
+
+.tpRPVertCB{
+	width : 25%;
+	margin-left: -25%;
+  	margin-top: 13px;
+    text-align: center !important;
+    color: rgb(79, 15, 15);
+	padding-top : 5% ;
+	
+}
+
+.tpRPCB0{
+	width : 25%;
+	margin-left: 15%;
+  	margin-top: 0%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	
+}
+
+.tpRPVertCB0{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 3.8%;
+  	margin-top: 4%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRPCB1{
+	width : 25%;
+	margin-left: 68%;
+  	margin-top: 0%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	
+}
+
+.tpRPVertCB1{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 65.4%;
+  margin-top: 4%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRPCB2{
+	width : 25%;
+	margin-left: 101%;
+  	margin-top: 0%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	
+}
+
+.tpRPVertCB2{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 112.8%;
+  	margin-top: 4%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tpRPCB3{
+	width : 25%;
+	margin-left: 131%;
+  	margin-top: 0%;
+    text-align: center !important;
+    color: rgb(219, 1, 1);
+	
+}
+
+.tpRPVertCB3{
+	width : 1.25%;
+	height : 42px;
+	margin-left: 143.4%;
+  	margin-top: 4%;
+    text-align: center !important;
+     color: rgb(219, 1, 1);
+	padding-top : 2% ;
+	z-index: 1;
+    position: relative;
+	
+}
+
+.tp_emp_name_det{
+	padding-left: 0px;
+  border-bottom: 2px dotted !important;
+  font-family: 'Arial';
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 14px;
+  color: #019FD8 !important;
+  padding-top : 9px
+}
+
+/* .mypath_doc_item_tp{
+	 width: 80%; position: relative; margin-bottom: 15px; border: 1px #ECECEC solid; height: 90px
+}
+
+.mypath_doc_info_section_tp{
+	  width: 80%;
+  padding-top: 10px;
+}
+
+.tp_empname{
+	color: #019FD8;
+}
+
+.tp_mgr_vlaoyout{
+	float: left;
+  padding-left: 24px;
+	
+}
+
+.tp_mgr_label{
+	margin-left: -94%;
+  padding-bottom: 15px;
+}
+
+.tp_emphl{
+	width: 100%;
+    padding-bottom: 13px;
+	
+}
+
+.tp_mgrhl{
+	
+}
+
+.tp_emphl_text{
+	padding-left : 90px ;
+	color: #999999;
+}
+.tp_emphl_txt{
+	padding-left : 37px ;
+	color: #999999;
+}
+
+.tp_emphl_name{
+	padding-left: 20px;
+	font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color : #333333 !important;
+  
+}
+
+.tp_mgrhl_name{
+	padding-left: 20px;
+	
+} */

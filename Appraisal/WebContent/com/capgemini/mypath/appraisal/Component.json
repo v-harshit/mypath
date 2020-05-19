@@ -1,0 +1,12 @@
+  {
+    "name": "mypath_appraisal",
+    "version": "0.1.0",
+    "description": "MyPath HR Appraisal Component",
+    "keywords": [
+        "MyPath",
+        "HR Appraisal",
+        "Employee" 
+    ],
+    "dependencies": {
+    }
+}

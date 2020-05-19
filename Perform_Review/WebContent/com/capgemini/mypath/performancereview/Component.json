@@ -1,0 +1,12 @@
+  {
+    "name": "PerformanceReview",
+    "version": "0.1.0",
+    "description": "MyPath HR Appraisal Performance Review Component",
+    "keywords": [
+        "MyPath",
+        "HR Appraisal",
+        "Employee" 
+    ],
+    "dependencies": {
+    }
+}

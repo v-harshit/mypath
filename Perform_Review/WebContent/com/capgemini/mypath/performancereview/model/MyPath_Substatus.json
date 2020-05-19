@@ -1,0 +1,548 @@
+{
+	"Employee": [
+		{
+		    "DocumentType": "Performance Review",
+		    "Status": 1,
+		    "Substatus": "A",
+		    "SubstatusText": "Preparation",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": false,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "B",
+		    "SubstatusText": "Objectives Setting (Employee)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "C",
+		    "SubstatusText": "Objectives Review/Signoff (Reviewer)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "D",
+		    "SubstatusText": "Objectives Signoff (Employee)",
+		    "Action": true,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "E",
+		    "SubstatusText": "Objectives Setting Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "F",
+		    "SubstatusText": "Mid-Year Self-Assessment (Employee)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "G",
+		    "SubstatusText": "Mid-Year Assessment/Signoff (Reviewer)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "H",
+		    "SubstatusText": "Mid-Year Signoff (Employee)",
+		    "Action": true,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "I",
+		    "SubstatusText": "Mid-Year Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "J",
+		    "SubstatusText": "Year-End Self-Assessment (Employee)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "K",
+		    "SubstatusText": "Year-End Assessment (Reviewer)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "L",
+		    "SubstatusText": "Calibration (HR)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "M",
+		    "SubstatusText": "Year-End Signoff (Reviewer)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "N",
+		    "SubstatusText": "Year-End Signoff (Employee)",
+		    "Action": true,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "O",
+		    "SubstatusText": "Year-End Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 5,
+		    "Substatus": "U",
+		    "SubstatusText": "Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 2,
+		    "Substatus": "P",
+		    "SubstatusText": "AA Objectives Definition (Employee)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 2,
+		    "Substatus": "Q",
+		    "SubstatusText": "AA Objectives Review/Signoff (Manager)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 2,
+		    "Substatus": "Z",
+		    "SubstatusText": "AA Objectives Signoff (Employee)",
+		    "Action": true,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "R",
+		    "SubstatusText": "AA Self-Assessment (Employee)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "S",
+		    "SubstatusText": "AA Assessment/Signoff (Manager)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "T",
+		    "SubstatusText": "AA Signoff (Employee)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "X",
+		    "SubstatusText": "AA Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 2,
+		    "Substatus": "V",
+		    "SubstatusText": "Feedback to be Completed",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": false,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 2,
+		    "Substatus": "W",
+		    "SubstatusText": "Feedback Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 3,
+		    "Substatus": "W",
+		    "SubstatusText": "Feedback Complete1",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 3,
+		    "Substatus": "Z",
+		    "SubstatusText": "Feedback Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}
+	],
+	"Reviewer": [
+		{
+		    "DocumentType": "Performance Review",
+		    "Status": 1,
+		    "Substatus": "A",
+		    "SubstatusText": "Preparation",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": false,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "B",
+		    "SubstatusText": "Objectives Setting (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": false,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "C",
+		    "SubstatusText": "Objectives Review/Signoff (Reviewer)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "D",
+		    "SubstatusText": "Objectives Signoff (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 2,
+		    "Substatus": "E",
+		    "SubstatusText": "Objectives Setting Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "F",
+		    "SubstatusText": "Mid-Year Self-Assessment (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": true,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "G",
+		    "SubstatusText": "Mid-Year Assessment/Signoff (Reviewer)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "H",
+		    "SubstatusText": "Mid-Year Signoff (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 3,
+		    "Substatus": "I",
+		    "SubstatusText": "Mid-Year Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "J",
+		    "SubstatusText": "Year-End Self-Assessment (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "K",
+		    "SubstatusText": "Year-End Assessment (Reviewer)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "L",
+		    "SubstatusText": "Calibration (HR)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "M",
+		    "SubstatusText": "Year-End Signoff (Reviewer)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "N",
+		    "SubstatusText": "Year-End Signoff (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 4,
+		    "Substatus": "O",
+		    "SubstatusText": "Year-End Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Performance Review",
+		    "Status": 5,
+		    "Substatus": "U",
+		    "SubstatusText": "Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 2,
+		    "Substatus": "P",
+		    "SubstatusText": "AA Objectives Definition (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": false,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 2,
+		    "Substatus": "Q",
+		    "SubstatusText": "AA Objectives Review/Signoff (Manager)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 2,
+		    "Substatus": "Z",
+		    "SubstatusText": "AA Objectives Signoff (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "R",
+		    "SubstatusText": "AA Self-Assessment (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "S",
+		    "SubstatusText": "AA Assessment/Signoff (Manager)",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "T",
+		    "SubstatusText": "AA Signoff (Employee)",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "Assignment Appraisal",
+		    "Status": 3,
+		    "Substatus": "X",
+		    "SubstatusText": "AA Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 2,
+		    "Substatus": "V",
+		    "SubstatusText": "Feedback to be Completed",
+		    "Action": true,
+		    "Editable": true,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 2,
+		    "Substatus": "W",
+		    "SubstatusText": "Feedback Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 3,
+		    "Substatus": "W",
+		    "SubstatusText": "Feedback Complete1",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}, {
+		    "DocumentType": "General Feedback",
+		    "Status": 3,
+		    "Substatus": "Z",
+		    "SubstatusText": "Feedback Complete",
+		    "Action": false,
+		    "Editable": false,
+		    "Visible": true,
+		    "hideReview": false,
+		    "iconUrl": ""
+		}
+	]
+}

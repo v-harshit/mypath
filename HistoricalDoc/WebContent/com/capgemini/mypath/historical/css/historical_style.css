@@ -1,0 +1,59 @@
+.historicaldoc_accordion {
+	width: 70% !important;
+	margin: 20px 0 30px 10%;
+	background-color: transparent;
+	border: none;
+}
+
+.historicaldoc_accordion .sapUiAcdSection {
+	width: 100% !important;
+	margin-top: 1em;
+}
+.historicaldoc_accordion .sapUiAcdSectionCont{
+	border: none;
+	background-color: transparent;
+	padding: 6px 0;
+	overflow: hidden;
+}
+.historicaldoc_accordion .sapUiAcdSectionMinArrow{
+	margin-top: 8px;
+}
+
+.document_link {
+	width: 96%;
+	padding: 10px;
+	border: 1px solid #D0CDC7;
+	margin: 4px 0 4px 4%;
+	position: relative;
+	font-size: 16px;
+	color: #019FD8;
+	background-color: white;
+	text-align: left;
+	font-weight: 700;
+}
+
+.historicaldoc_accordion .sapUiAcdSectionHdr {
+	color: #333333;
+	background-color: white;
+	height: 45px;
+	border: 1px solid #D0CDC7;
+}
+
+.historicaldoc_accordion .sapUiAcdSectionHdr:hover{
+	background-color: white;
+	color: #019FD8;
+}
+
+.linkS {
+	color: black;
+}
+
+.historicaldoc_accordion .sapUiAcdSectionLabel {
+	font-family: 'Arial Bold', 'Arial';
+	font-weight: 700 !important;
+	font-style: normal;
+	font-size: 14px;
+	color: #333333;
+	margin-left: 15px;
+	line-height: 30px;
+}

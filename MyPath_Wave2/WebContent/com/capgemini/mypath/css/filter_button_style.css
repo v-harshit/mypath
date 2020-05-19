@@ -1,0 +1,49 @@
+.reviewDocumentsFilterHeaderLabel {
+	font-family: 'Arial Bold', 'Arial';	font-weight: 700; font-style: normal; font-size: 11px;
+	color: #333333; background-color : background-color: rgb(244, 244, 244); margin-top: 10px;float : left
+}
+.reviewDocumentsFilterLabel {
+	font-family: 'Arial Bold', 'Arial'; font-weight: 700; font-style: normal; font-size: 11px; color: #333333;float:left
+}
+.reviewDocumentsFilterLink {
+	font-size: 14px; font-family: 'Arial Bold', 'Arial'; font-weight: 700; font-style: normal;
+	color: #019FD8;
+	text-align: left; line-height: normal; outline: 0 !important; outline-offset: 0; text-decoration: none;
+}
+.reviewDocumentsFilterLink:focus:not (.sapMLnkDsbl ) {
+	color: #019FD8;
+}
+.reviewDocumentsFilterToggleButtonM { height: 2.3rem; position: absolute; left: 20px; }
+.reviewDocumentsFilterToggleButtonM .sapMBtnInner {
+	height: 1.4rem; vertical-align: middle; border: 0; border-radius: 10px;
+	color: #FFFFFF; text-shadow: none; font-size: 12px; background-color: rgb(131,200,223);
+	background: -webkit-linear-gradient(top,rgb(131,200,223) 0,rgb(131,200,223) 100%);
+	background: -ms-linear-gradient(top,rgb(131,200,223) 0,rgb(131,200,223) 100%);
+}
+.reviewDocumentsFilterToggleButtonM .sapMBtnInner.sapMToggleBtnPressed {
+	background-color: #0098CC; font-size: 12px; background: -webkit-linear-gradient(top,rgb(1,128,175) 0,rgb(1,128,175) 100%); background: -ms-linear-gradient(top,rgb(1,128,175) 0,rgb(1,128,175) 100%);
+		text-shadow:none;
+	/* background-color: #0098CC; font-size: 12px; background: -webkit-linear-gradient(top,rgb(1,128,175) 0,rgb(1,128,175) 100%); background: -ms-linear-gradient(top,rgb(1,128,175) 0,rgb(1,128,175) 100%); */
+}
+
+.reviewDocumentsFilterToggleButtonM .sapMBtnInner .sapMBtnContent{ line-height: 1.375rem; }
+.spaceBR { display:none; }
+.actionSpaceBR { content: ""; margin: 4em; 	display: block; font-size: 20%; }
+.headerText {
+	font-family: 'Arial Regular', 'Arial'; font-weight: normal; font-style: normal; font-size: 18px;
+	color: rgb(51, 51, 51); text-align: left; line-height: normal;
+}
+
+.oResetFilter{ 
+	font-family: 'Arial Bold', 'Arial'; font-weight: 700; font-style: normal; font-size: 14px;  
+	color: #019FD8; margin: 5px 0; cursor: pointer;float:left
+}
+.oFacetMatrixlayout{
+  vertical-align: top;
+  padding-left: 22px !important; padding-top: 6px !important ; position: absolute !important ;
+  width : 330px; margin-top : 0px; overflow-y: auto; overflow-x: hidden;   
+}
+.oFacetMatrixlayout td { padding-left: 20px; }
+.oFacetMatrixlayout{
+  vertical-align: top; padding-left: 16px !important ; padding-top: 15px !important ; }
+ .factDatePic{float : left} 

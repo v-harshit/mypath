@@ -1,0 +1,150 @@
+/*PIP Style*/
+
+.pip_obj_action_style
+{
+   margin-left: 1% !important;
+   margin-top: 2%;
+} 
+.pip_header_obj_style {
+  margin-top: 1% !important;
+  width: 75% !important;
+}
+.pip_obj_style
+{
+  border: 1px solid #DDDDDD;
+  /* margin-top: 1%; */
+  margin-left: -0.5%;
+  background-color: white;
+  width : 75% !important;
+  margin-bottom: 50px !important;
+}
+
+.pip_objectives_divider {
+  border-style: dotted;
+  margin-top: 8%;
+}
+
+.pip_obj_add_style
+{
+	margin-top: 0% !important;
+	margin-bottom: 50px !important;
+}
+.pip_action_label
+{
+	margin-top: 2%;
+}
+.pip_action_emp_style
+{
+  border: 1px solid #DDDDDD;
+  margin-top: -2%;
+  margin-left: -0.5%;
+  background-color: white;
+  width: 75% !important;
+  margin-bottom: 7% !important;
+}
+.pip_evalution_style
+{
+   margin-left: 1% !important;
+
+} 
+.pip_signoff_style {
+  border: 1px solid #DDDDDD;
+  margin-top: 1%;
+  margin-left: -0.5%;
+  background-color: white;
+  width: 75% !important;
+}
+
+.pip_top_panel_image_content
+{
+	width: 4% !important;
+}
+.pip_float_left
+{
+	float: left !important;
+}
+.pip_margin_right
+{
+	margin-right: 6% !important
+}
+.pip_header_link_number_blue
+{
+	margin-left: 10px !important;
+}
+.review_ind_text_style
+{
+	float: left !important;
+	  margin-left: 1% !important;
+}
+.text_align_left
+{
+	text-align: left;
+}
+.showMoreTextPIP
+{
+  float: left;
+  /* margin-left : 1% !important; */  
+  width:97%;
+  padding: 0.75rem 5px;
+ /*  border: 1px solid #c0c0c0; */
+  text-align: left !important;
+}
+.showMoreTextPIPHRComments
+{
+  float: left;
+  width:97%;
+  padding: 0.75rem 5px;
+/*   border: 1px solid #c0c0c0; */
+  text-align: left !important;
+}
+.label_style {
+font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #666666 !important;
+  white-space: normal;
+  overflow: visible;
+  height: auto;
+  text-align: right !important;
+}
+.pip_margin_top
+{
+	  margin-top: 1%;
+}
+.pip_action_expand_emp_margin
+{
+  margin-bottom: -0.5% !important;
+  float: left;
+  text-align: left;
+}
+.pip_action_emp_textarea_margin
+{
+margin-top: 0% !important;
+}
+.pippdfImage {
+  float: right;
+  position: absolute;
+  top: 28px;
+  right: 5%;
+}
+
+.matrix_row_color
+{
+	
+}
+.matrix_row_color tr:nth-child(even)
+{
+ background-color:rgb(229, 229, 229);
+}
+/*appraisal css changes*/
+
+.appraisalTabStyle .sapMITBTextOnly .sapMITBFilter{
+  border-right: 1px solid rgb(200,200,200);
+  border-left: 1px solid rgb(200,200,200);
+}
+
+.appraisalTabStyle .sapMITBTextOnly .sapMITBFilter:last-child {
+  border-right: 1px solid rgb(200,200,200);
+  border-left: 1px solid rgb(200,200,200);
+}

@@ -1,0 +1,55 @@
+.PaddingandFont .sapMBtnContent{
+	background-color: #009de0;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  color: white;
+  font-family: 'Arial Regular', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  text-align: center;
+  border-color: #008bc7;
+  border-radius: 6px;
+}
+ .PaddingandFont {
+  margin-left: 470px !important;
+  margin-top: -49px;
+}
+
+.FontStyle .sapMInputBaseInner {
+	  width: 359px !important;
+}
+
+.FontStyle .sapMBtnContent{
+background-color: #009de0 !important;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  color: white;
+  font-family: 'Arial Regular', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  text-align: center;
+  border-color: #008bc7;
+  border-radius: 6px;
+	text-transform: uppercase;
+}
+
+.FontStyle .sapUiFup{
+	  padding-left: 23px !important;
+  background-color: rgb(229, 229, 229)!important;;
+}
+
+.FontStyle .sapMBtn {
+	  margin-left: 5px;
+  width: 5rem;
+
+}
+.Background .sapMDialogSection {
+  background-color: lightgrey;
+}
+
+
+.PaddingAndFont{
+	padding-top: 29px;
+}

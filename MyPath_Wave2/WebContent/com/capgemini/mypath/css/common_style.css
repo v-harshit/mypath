@@ -1,0 +1,135 @@
+/*Common CSS for Assignment Appraisal and General feedback*/
+
+.title_text
+{
+  font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color : #333333 !important;
+}
+
+.label_style
+{
+  font-family: 'Arial' !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 14px !important;
+  color: #333333 !important;
+}
+
+.cancel_btn_style
+{
+  position: fixed !important;
+  bottom: 0px !important;
+  left: 100px !important;
+}
+.create_btn_style
+{
+  position: fixed !important;
+  bottom: 0px !important;
+  right: -50px !important;
+	
+}
+
+.btn_normal, .btn_normal_blue{
+	height:4rem;
+}
+.btn_normal .sapMBtnDefault
+{
+	text-decoration: none;
+	border: none !important;
+	outline: none;
+	background:#AAAAAA !important;
+	margin-left: 0px;
+	border-radius: 0px !important;
+	font-weight: bold !important;
+	line-height:4rem;
+	height:4rem;
+}
+
+.btn_normal_blue .sapMBtnDefault
+{
+	text-decoration: none;
+	border: none !important;
+	outline: none;
+	background: #019FD8 !important;
+	color: white !important;
+	margin-left: 0px;
+	border-radius: 0px !important;
+	font-weight: bold !important;
+	line-height:4rem;
+	height:4rem;
+}
+
+.btn_normal .sapMBtnContent, .btn_normal_blue .sapMBtnContent{
+	line-height:4rem;
+	FONT-SIZE: 16PX;
+    FONT-WEIGHT: BOLD;
+}
+
+.search_icon_style
+{		
+  float: left !important;
+  border-color: white !important;
+  background-color: white !important;
+}
+
+.search_feedback_style .sapUiUx3ODContent
+{
+background: #EEEEEE !important;
+height: auto !important;
+width:80% !important;
+left : 40% !important;
+overflow: hidden;
+}
+
+.underline_style
+{
+  color: #019FD8 !important;
+  font-weight: 700 !important;
+  border-bottom: 2px dotted !important;
+}
+
+
+/*Common but different attributes for Assignment Appraisal and General feedback*/
+
+.feedback_details_style
+{
+background-color: #DDDDDD;	
+  border-radius: 10px;
+ /* margin-top: 0%;
+  margin-left: -0.5%;*/
+}
+
+.top_panel_image_content
+{
+  height: 100%;
+  background: transparent;
+  float: right;
+/*width: 7%;
+  position: absolute;
+  top: 10px;
+  right: 3%; */	
+}
+
+.header_link_number_blue
+{
+  width: 20px;
+  line-height: 11px;
+  color: white;
+  background-color: rgb(1,159,216);
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 5px;
+  font-weight: 700;
+  /*position: absolute;*/
+}
+
+.remove_btn{
+	font-size: 14px;
+  	color: #009FD7 !important;
+  	height: 35px;
+  	float: right;
+  	margin-top: 5px;
+}

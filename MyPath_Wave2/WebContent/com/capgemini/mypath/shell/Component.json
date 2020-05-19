@@ -1,0 +1,11 @@
+  {
+    "name": "com.capgemini.mypath.shell",
+    "version": "0.1.0",
+    "description": "MyPath HR Appraisal Component",
+    "keywords": [
+        "MyPath",
+        "HR Appraisal" 
+    ],
+    "dependencies": {
+    }
+}

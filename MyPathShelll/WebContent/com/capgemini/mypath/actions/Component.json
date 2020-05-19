@@ -1,0 +1,12 @@
+  {
+    "name": "com.capgemini.mypath.actions",
+    "version": "0.1.0",
+    "description": "MyPath HR Appraisal Dashboard Component",
+    "keywords": [
+        "MyPath",
+        "HR Appraisal",
+        "Actions"
+    ],
+    "dependencies": {
+    }
+}

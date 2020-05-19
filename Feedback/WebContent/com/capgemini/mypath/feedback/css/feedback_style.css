@@ -1,0 +1,298 @@
+/*Feedback style*/
+
+.header_link{
+	color: #0098CC !important;
+	font-weight: 400 !important;
+  	font-style: normal !important;
+  	font-size: 16px !important;
+  	white-space:normal !important;
+  	height:100% !important;
+  	line-height:13px !important;
+  	text-align:center !important;
+  	float : left !important; 
+}
+
+.header_link:active{
+	text-decoration: none !important; 
+	border: none !important;
+}
+.header_link.header_link_selected{
+	background: #FFFFFF !important;
+	color: #0098CC !important;	 
+}
+.header_link.header_link_deselected{
+	background: #DDDDDD !important;
+	color: #666666 !important;
+	  
+}
+
+.link_titletext{
+  font-family: 'Arial Bold', 'Arial' !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 11px !important;
+  text-align: center !important;  
+  padding-top: 0.6rem !important;
+}
+ .panel_header .sapMPanelContent
+{
+ height: 65px;
+  padding: 0rem 1rem 0rem 1rem !important;
+  background-color: #DDDDDD !important;
+  overflow: hidden;
+ border-bottom:0px!important;
+} 
+
+.to_label_style
+{
+	padding: 3% 2% 0% 8%;
+	text-align: right !important;
+}
+
+
+.feedback_details_matrix_style
+{
+  margin-top: 1%;
+  margin-left: 1.9%;
+}
+.others_feedback_style
+{
+  border: 2px solid #DDDDDD;
+  margin-top: 1%;
+  margin-left: 2%;
+  background-color: white;
+}
+ .others_feedback_style td
+{
+	vertical-align:middle !important;
+}
+
+ .others_feedback_style tr:nth-child(3) td:nth-child(3)
+{
+	vertical-align:top !important;
+}
+
+.others_feedback_style .create_others_title
+{
+	padding-top:5% !important;
+}
+
+.create_feedback_style
+{
+  border: 2px solid #DDDDDD;
+  margin-top: 1%;
+  margin-left: 1.5%;
+  background-color: white;
+}
+
+.others_feedback_link_style
+{
+	margin-left: 10px;
+	padding-top: 1.4rem !important;
+}
+
+.display_preview_style
+{
+	  margin-top: 15px;
+	  float: right;
+}
+.divider_style
+{
+	/* border-style: dashed;*/
+ 	margin-left: 4%;
+ 	border-width: 0px 0 1px 0 !important;
+}
+.date_cell_style
+{
+	float:left;
+}
+
+.appraisal_info_icon_style
+{
+	border-color: white !important;
+  background-color: white !important;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.feedback_table_style
+{
+	margin-left: 5%;
+	  margin-top: 2%;
+}
+ .pdfImage {
+
+  top: 20px;
+  right: 6%;
+}
+
+
+.header_link_number_attachment
+{
+	width: 20px;
+  line-height: 11px;
+  color: white;
+  background-color: rgb(1,159,216);
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 4px;
+  font-weight: 700;
+}
+.top_panel_content
+{
+	height :100%;
+	width:16%;
+    background: #FFFFFF;
+	float:left;
+	border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+.link_marginleft
+{
+	margin-left: 1% !important;
+}
+.top_panel_content_deselcted
+{
+	
+	  background: #DDDDDD !important;
+}
+
+.feedback_top_panel_image_content
+{	
+	width:10%;	
+}
+
+.top_panel_display_content
+{
+	height :100%;
+	width:4%;
+    background: transparent;    
+	float:right;
+	margin-top: 8px !important;	
+}
+
+.header_link_number
+{
+	width: 20px;
+  line-height: 11px;
+  color: white;
+  background-color: #666666;
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 3px;
+  font-weight: 700;
+}
+.feedback_header_link_number_blue
+{  
+  margin-top: 5px;
+}
+.header_link_number_blue_attachment
+{
+  /* width: 27px;
+  line-height: 13px;
+  color: white;
+  background-color: rgb(1,159,216);
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 5px;
+  position: absolute;
+  font-weight: 700;
+  text-align: center !important;
+  right : 55px !important; */
+  
+  width: 27px;
+  line-height: 13px;
+  color: white;
+  background-color: rgb(1,159,216);
+  padding: 5px;
+  border-radius: 50%;
+  margin-top: 5px;
+  /* position: absolute; */
+  font-weight: 700;
+  text-align: center !important;
+  right: 1% !important;
+  float: right;  
+cursor: pointer;
+}
+
+.attachmentImageFeedback {
+ /*  position: relative;
+  margin-top: 20px; */
+   float: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.sapMLabelRequired:before
+{
+	  color: red !important;
+}
+/*Read only overlay style*/
+
+.showMoreTextStyle {
+	word-wrap: break-word;
+	font-family: 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	color: #666666;
+	text-align: left;
+	line-height: normal;
+}
+.showMoreDialog .sapMDialogSection {
+	border: 6px solid #333333;
+}
+
+.showMoreDialog {
+	border: 0;
+	overflow: visible;
+}
+.showMoreDialogClosebtn {
+	background: #333333;
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 80%;
+	cursor: pointer;
+	padding: 10px;
+	position: absolute; 
+	top: -20px;
+	right: -20px;
+	height: 20px;
+	z-index: 1;
+}
+.search_feedback_style .sapUiUx3OverlayCloseButton
+{
+	right : 30% !important;
+}
+.textAreaStyle
+{
+	overflow-y : auto !important;
+	/* resize : none !important; */
+}
+.feedback_provider_label_style
+{
+	  padding: 2px !important;
+	  float : left !important;
+}
+.hlayout_style
+{
+	  float: right !important;
+}
+.showMoreTextGF
+{
+  float: left;
+  width: 100%;
+  padding-top:4px;
+}
+.display_header_link_number
+{
+	right : 12px !important;
+}
+.top_panel_displayfb_attachment
+{
+	margin-top: 0px !important;
+}
+.displayLinkMatrixStyle
+{
+	float:right !important;
+}

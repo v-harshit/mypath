@@ -1,0 +1,8 @@
+.reporting_criteria_vlayout{ background-color: rgb(238, 238, 238); width: 96%; padding: 15px 2%; border-radius: 8px;}
+.reporting_criteria_lbl{  
+  width: 90%; float: left; margin-bottom: 15px;
+  font-family: 'Arial Bold', Arial; font-weight: 700; font-style: normal; font-size: 11px; color: #333333;
+ }
+.reporting_criteria_dropdown{ 
+	font-family: 'Arial Regular', Arial; font-weight: 400; font-style: normal; 
+	font-size: 13px; color: #333; width: 95%; float: left;   padding: 5px 20px 0 0 !important; height: 30px; }

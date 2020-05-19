@@ -1,0 +1,105 @@
+@CHARSET "ISO-8859-1";
+
+.workflowCSS {
+	position: relative;
+	right: 0;
+	width: 100px;
+	text-align: center;
+	float: right;
+}
+
+.workflowHeaderCSS .sapMText {
+	/* word-wrap: break-word; */
+	width: 94px;
+	/* height: 28px; */
+	font-family: 'Arial Bold', 'Arial';
+	/* font-weight: 700; */
+	/* font-style: normal; */
+	font-size: 11px;
+	color: #B2BDC1;
+	text-align: center !important;
+	/* padding-bottom: 2.5rem; */
+}
+
+.workflowHeaderTextChina {
+	height: 13px;
+	width: 94px;
+}
+
+hr.vertical {
+	width: 0.063rem;
+	/* height: 100%; */
+	background-color: rgb(8, 161, 216);
+	position: absolute;
+	border-color: rgb(8, 161, 216);
+	border-style: solid;
+	right: 3rem;
+}
+
+hr.verticalGrey {
+	width: 0.063rem;
+	/* height: 100%; */
+	background-color: rgb(204, 204, 204);
+	position: absolute;
+	border-color: rgb(204, 204, 204);
+	border-style: solid;
+	right: 3rem;
+}
+
+hr.verticalBlank {
+	width: 0.063rem;
+	/* height: 100%; */
+	background-color: rgb(189, 224, 189);
+	position: absolute;
+	border-color: rgb(189, 224, 189);
+	border-style: solid;
+	right: 3rem;
+}
+
+.tdClass img {
+	max-width: 100%;
+	border-radius: 50%;
+	border-color: rgb(8, 161, 216);
+	position: relative;
+	margin: auto;
+	left: auto;
+	right: auto;
+	background-color: #ffffff;
+}
+
+a.tooltip {
+	outline: none;
+}
+
+a.tooltip strong {
+	line-height: 0px;
+}
+
+a.tooltip:hover {
+	text-decoration: none;
+}
+
+a.tooltip span {
+	z-index: 10;
+	display: none;
+	padding: 10px 10px;
+	margin-top: 5px;
+	margin-left: -280px;
+	width: 200px;
+	line-height: 16px;
+}
+
+a.tooltip:hover span {
+	display: inline;
+	position: absolute;
+	color: #FFFFFF;
+	border: 1px solid rgb(57, 130, 161);
+	background: rgb(57, 130, 161);
+}
+
+/*CSS3 extras*/
+a.tooltip span {
+	border-radius: 4px;
+	box-shadow: 5px 5px 8px #CCC;
+}
+

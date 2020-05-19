@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="com/capgemini/mypath/css/mypath_style.css">
+    <script src="resources/sap-ui-core.js"
+			id="sap-ui-bootstrap" data-sap-ui-libs="sap.ui.commons"
+			data-sap-ui-theme="sap_bluecrystal">
+    //jQuery.sap.includeStyleSheet("com/capgemini/mypath/css/mypath_style.css");
+    
+		</script>  
+
+    <!-- 2.) Create a UI5 button and place it onto the page -->
+    <script>
+        // create the button instance
+        var myButton = new sap.ui.commons.Button().addStyleClass("postLogButton");
+        var image = new sap.ui.commons.Image({
+        	src : "com/capgemini/mypath/images/logout-tile.png"
+        }).addStyleClass("postLogImage");
+
+        // set properties, e.g. the text (there is also a shorter way of setting several properties)
+        myButton.setText("LOGIN");
+
+        // attach an action to the button's "press" event (use jQuery to fade out the button)
+        myButton.attachPress(function(){
+        	
+        	$.ajax({
+        		url: location.protocol+"//" + location.host +"/sap/public/bc/icf/logoff",
+        		async: false
+        	}).complete(function(){
+        		//window.close();
+        		var myPathWin =  window.localStorage.getItem("myPathURL");//  sessionStorage.myPathURL ; //window.localStorage.getItem("myPathURL");
+        		console.log(myPathWin);
+        		window.open( myPathWin ,"_self");
+        		//location.reload();
+        	});
+        });
+
+        // place the button into the HTML element defined below
+        
+        var oLayout = new sap.ui.layout.VerticalLayout({
+	content: [image , myButton]
+}).addStyleClass("logoffHorz");
+        oLayout.placeAt("uiArea");
+
+        // an alternative, more jQuery-like notation for the same is:  
+        /*
+        $(function(){
+            $("#uiArea").sapui("Button", "btn", {
+                text:"Hello World!",
+                press:function(){$("#btn").fadeOut();}
+            });
+         });
+         */
+     </script>
+     
+</head>
+
+<body class="sapUiBody"> 
+
+
+
+    <!-- This is where you place the UI5 button -->
+    <div id="uiArea"></div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+  {
+    "name": "talent_profile",
+    "version": "0.1.0",
+    "description": "MyPath HR Appraisal Talent Profile Component",
+    "keywords": [
+        "MyPath",
+        "HR Appraisal",
+        "Employee",
+        "Talent Profile" 
+    ],
+    "dependencies": {
+    }
+}
